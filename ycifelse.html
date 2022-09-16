@@ -15,8 +15,9 @@
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">  <!-- 网页收藏夹ico图标 -->
     <meta name="viewport" content="width=device-width,initial-scale=1" />
 </head>
+<!--导入背景图片 -->
 <body background="img\preview.jpg" style="background-attachment:fixed">
-    <!--导入背景图片 -->
+    <!-- 导航栏 -->
     <div id="head_nav">
         <div id="nav_logo">
             <p>YC Love</p>
@@ -42,6 +43,7 @@
             </div>
         </div>
     </div>
+    <!-- 左侧 -->
     <div id="root">
         <div class="my">
             <img src="img\myiu.png" style="width:100px; height:100px; border-radius:50%; ">
@@ -62,39 +64,57 @@
         </div>
         <div class="sidebar">
             <h1><i class="fa fa-bars push"></i>导航</h1>
-              <ul>
-              <li><a href="ycifelse.html"><i class="fa fa-dashboard push"></i>首页<i class="fa fa-angle-right"></i></a><span class="hover"></span>
-              </li>
-              <li><a href="#"><i class="fa fa-user push"></i>用户<i class="fa fa-angle-right"></i></a><span class="hover"></span>
-                <ul class="sub-menu">
-                   <li><a href="#">添加用户<i class="fa fa-angle-right"></i></a><span class="hover"></span></li>
-                   <li><a href="#">管理用户<i class="fa fa-angle-right"></i></a><span class="hover"></span></li>
-                </ul>
-              </li>
-              <li><a href="#"><i class="fa fa-cog push"></i>设置<i class="fa fa-angle-right"></i></a><span class="hover"></span>
-               <ul class="sub-menu">
-                   <li><a href="#">仪表盘设置<i class="fa fa-angle-right"></i></a><span class="hover"></span></li>
-                   <li><a href="#">配置文件设置<i class="fa fa-angle-right"></i></a><span class="hover"></span></li>
-                  <li><a href="#">管理菜单<i class="fa fa-angle-right"></i></a><span class="hover"></span></li>
-                 <li><a href="#">用户资料<i class="fa fa-angle-right"></i></a><span class="hover"></span></li>
-                </ul></li>
-              <li><a href="#"><i class="fa fa-picture-o push"></i>主题<i class="fa fa-angle-right"></i></a><span class="hover"></span>
-                  <ul class="sub-menu">
-                   <li><a href="#">更换主题<i class="fa fa-angle-right"></i></a><span class="hover"></span>
-                    </li>
-                   <li><a href="#">主题选项<i class="fa fa-angle-right"></i></a><span class="hover"></span></li>
-                </ul>
-              </li>
-              <li><a href="#"><i class="fa fa-file push"></i>消息<i class="fa fa-angle-right"></i></a><span class="hover"></span>
-                  <ul class="sub-menu">
-                   <li><a href="#">最新消息<i class="fa fa-angle-right"></i></a><span class="hover"></span>
-                    </li>
-                   <li><a href="#">最近文章<i class="fa fa-angle-right"></i></a><span class="hover"></span></li>
-                </ul>
-              </li>
-              <li><a href="#"><i class="fa fa-plane push"></i>关于<i class="fa fa-angle-right"></i></a><span class="hover"></span></li>
+            <ul>
+                <li>
+                    <a href="ycifelse.html">
+                        <i class="fa fa-dashboard push"></i>
+                        首页
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                    <span class="hover"></span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-user push"></i>
+                        用户
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                    <span class="hover"></span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-cog push"></i>
+                        设置
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                    <span class="hover"></span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-picture-o push"></i>
+                        主题
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                    <span class="hover"></span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-file push"></i>
+                        消息
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                    <span class="hover"></span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-plane push"></i>
+                        关于
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                    <span class="hover"></span>
+                </li>
             </ul>
-          </div>
+        </div>
             <script src='js/jquery.js'></script>
           
             <script src="js/index.js"></script>
@@ -120,42 +140,42 @@
         </div>
           
     </div>
+    <!-- 中间内容 -->
     <div class="content_cen">
         <div class="cen_md">
 
         </div>
+        <!-- 内容块 -->
         <div class="content_root">
             <a href="text/yc1.html">
-            <div class="article_img">
-                <img src="img\ifelse.png">
-            </div>
-            <!-- <div class="guodu">
-                                                            ----------过渡效果----------
-            </div> -->
-            <div class="article_con">
-            <h2>Vscode多行前后缩进</h2>
-            <p>
-                vscode缩进快捷键
-            </p>
+                <div class="article_img">
+                    <img src="img\ifelse.png">
+                </div>
+                <div class="article_con">
+                    <h2>Vscode多行前后缩进</h2>
+                    <p>
+                        vscode缩进快捷键
+                    </p>
             </a>
-            <div class="article_user">
-                <div id="user_user">
-                    <img src="img\user.png">
-                    <a href="#">
-                        <span>小诗诗</span>
-                    </a>
+                <div class="article_user">
+                    <div id="user_user">
+                        <img src="img\user.png">
+                        <a href="#">
+                            <span>小诗诗</span>
+                        </a>
+                    </div>
+                    <div id="user_time">
+                        <img src="img\time.png" id="time">
+                        <span>2022.5.7</span>
+                    </div>
+                    <div id="user_com">
+                        <img src="img\com.png">
+                        <span>14</span>
+                    </div>
                 </div>
-                <div id="user_time">
-                    <img src="img\time.png" id="time">
-                    <span>2022.5.7</span>
                 </div>
-                <div id="user_com">
-                    <img src="img\com.png">
-                    <span>14</span>
-                </div>
-            </div>
-            </div>
         </div>
+        <!-- 内容块 -->
         <div class="content_root">
             <a href="#">
             <div class="article_img">
@@ -331,6 +351,7 @@
             </div>
         </div>
     </div>
+    <!-- 右上角 -->
     <div class="content_rig">
         <div class="window">
             <img src="img\cat1.png">
@@ -339,6 +360,7 @@
                 回首往事或怀念故乡,其实是在现实里的不知所措以后的故作镇静...
             </p>
         </div>
+        <!-- 热点内容 -->
         <div class="hot">
             <h4>热点内容</h4>
             <div class="hot_con">
@@ -382,6 +404,7 @@
                 </a>
             </div>
         </div>
+        <!-- 网站信息 -->
         <div class="info">
             <h4>网站信息</h4>
             <div class="info_box">
