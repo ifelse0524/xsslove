@@ -6,22 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>小诗诗</title>
     <link rel="stylesheet" type="text/css" href="css/one.css">   <!--导入外部css文件-->
-    <!-- <link rel="stylesheet" type="text/css" href="css/zt.css"> -->
+    <link rel="stylesheet" href="css/FontAwesome.css"> <!--Font Awesome (live 2d)-->
     <script type="text/javascript" src="js/one.js"></script>     <!--导入外部js文件-->
-    <!-- <script type="text/javascript" src="js/two.js"></script> -->
-    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />   <!--导入导航栏css文件-->
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">  <!-- 网页标题ico图标 -->
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">  <!-- 网页收藏夹ico图标 -->
     <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <script src="js/live2d.js"></script>
 </head>
 <!--导入背景图片 -->
 <body background="img\preview.jpg" style="background-attachment:fixed">
     <!-- 导航栏 -->
     <div id="head_nav">
-        <div id="nav_logo">
+        <!-- <div id="nav_logo">
             <p>YC Love</p>
-        </div>
+        </div> -->
         <div id="nav_sou">
             <div class="container">
                 <form action="" class="parent">
@@ -43,6 +42,40 @@
             </div>
         </div>
     </div>
+    <div class="left-left">
+        <ul class="home">
+            <a href="ycifelse.html">
+                <li>
+                    <img src="img\home.svg" id="img_1">
+                </li>
+            </a>
+            <a href="ycifelse.html">
+                <li>
+                    <img src="img\newpost.svg" id="img_2">
+                </li>
+            </a>
+            <a href="ycifelse.html">
+                <li>
+                    <img src="img\xx1.png" id="img_3">
+                </li>
+            </a>
+            <a href="ycifelse.html">
+                <li>
+                    <img src="img\xx2.png" id="img_4">
+                </li>
+            </a>
+            <a href="ycifelse.html">
+                <li>
+                    <img src="img\xx3.svg" id="img_5"> 
+                </li>
+            </a>
+            <a href="ycifelse.html">
+                <li>
+                    <img src="img\xx4.svg" id="img_6"> 
+                </li>
+            </a>
+        </ul>
+    </div>
     <!-- 左侧 -->
     <div id="root">
         <div class="my">
@@ -62,63 +95,14 @@
                 </p>
             </div>
         </div>
-        <div class="sidebar">
-            <h1><i class="fa fa-bars push"></i>导航</h1>
-            <ul>
-                <li>
-                    <a href="ycifelse.html">
-                        <i class="fa fa-dashboard push"></i>
-                        首页
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                    <span class="hover"></span>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fa fa-user push"></i>
-                        用户
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                    <span class="hover"></span>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fa fa-cog push"></i>
-                        设置
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                    <span class="hover"></span>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fa fa-picture-o push"></i>
-                        主题
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                    <span class="hover"></span>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fa fa-file push"></i>
-                        消息
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                    <span class="hover"></span>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fa fa-plane push"></i>
-                        关于
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                    <span class="hover"></span>
-                </li>
-            </ul>
-        </div>
+        <!-- d
+            a
+            i
+         -->
             <script src='js/jquery.js'></script>
           
             <script src="js/index.js"></script>
-        <div class="root_db">
+        <!-- <div class="root_db">
             <div id="home">
                 <a href="#">
                     <img src="img\xx1.png">
@@ -137,8 +121,8 @@
                 <p>标签</p>
                 </a>
             </div>
-        </div>
-          
+        </div> -->
+
     </div>
     <!-- 中间内容 -->
     <div class="content_cen">
@@ -147,22 +131,22 @@
         </div>
         <!-- 内容块 -->
         <div class="content_root">
-            <a href="text/yc1.html">
+            
                 <div class="article_img">
                     <img src="img\ifelse.png">
                 </div>
                 <div class="article_con">
-                    <h2>Vscode多行前后缩进</h2>
+                    <a href="text/yc1.html">
+                        <h2>Vscode多行前后缩进</h2>
+                    </a>
                     <p>
                         vscode缩进快捷键
                     </p>
-            </a>
+
                 <div class="article_user">
                     <div id="user_user">
                         <img src="img\user.png">
-                        <a href="#">
                             <span>小诗诗</span>
-                        </a>
                     </div>
                     <div id="user_time">
                         <img src="img\time.png" id="time">
@@ -177,22 +161,21 @@
         </div>
         <!-- 内容块 -->
         <div class="content_root">
-            <a href="#">
+            
             <div class="article_img">
                 <img src="img\ifelse.png">
             </div>
             <div class="article_con">
-            <h2>str</h2>
+                <a href="#">
+                    <h2>str</h2>
+                </a>
             <p>
                 大棚乱了四季,金钱乱了年纪.
             </p>
-            </a>
             <div class="article_user">
                 <div id="user_user">
                     <img src="img\user.png">
-                    <a href="#">
                         <span>小诗诗</span>
-                    </a>
                 </div>
                 <div id="user_time">
                     <img src="img\time.png" id="time">
@@ -206,22 +189,20 @@
             </div>
         </div>
         <div class="content_root" >
-            <a href="#">
             <div class="article_img">
                 <img src="img\ifelse.png">
             </div>
             <div class="article_con">
-                <h2>str</h2>
+                <a href="#">
+                    <h2>str</h2>
+                </a>
                 <p>
                     大棚乱了四季,金钱乱了年纪.
                 </p>
-                </a>
                 <div class="article_user">
                     <div id="user_user">
                         <img src="img\user.png">
-                        <a href="#">
                             <span>小诗诗</span>
-                        </a>
                     </div>
                     <div id="user_time">
                         <img src="img\time.png" id="time">
@@ -235,22 +216,20 @@
             </div>
         </div>
         <div class="content_root" >
-            <a href="#">
             <div class="article_img">
                 <img src="img\ifelse.png">
             </div>
             <div class="article_con">
-                <h2>str</h2>
+                <a href="#">
+                    <h2>str</h2>
+                </a>
                 <p>
                     大棚乱了四季,金钱乱了年纪.
                 </p>
-                </a>
                 <div class="article_user">
                     <div id="user_user">
                         <img src="img\user.png">
-                        <a href="#">
                             <span>小诗诗</span>
-                        </a>
                     </div>
                     <div id="user_time">
                         <img src="img\time.png" id="time">
@@ -264,22 +243,20 @@
             </div>
         </div>
         <div class="content_root" >
-            <a href="#">
             <div class="article_img">
                 <img src="img\ifelse.png">
             </div>
             <div class="article_con">
-                <h2>str</h2>
+                <a href="#">
+                    <h2>str</h2>
+                </a>
                 <p>
                     大棚乱了四季,金钱乱了年纪.
                 </p>
-                </a>
                 <div class="article_user">
                     <div id="user_user">
                         <img src="img\user.png">
-                        <a href="#">
                             <span>小诗诗</span>
-                        </a>
                     </div>
                     <div id="user_time">
                         <img src="img\time.png" id="time">
@@ -293,22 +270,20 @@
             </div>
         </div>
         <div class="content_root" >
-            <a href="#">
             <div class="article_img">
                 <img src="img\ifelse.png">
             </div>
             <div class="article_con">
-                <h2>str</h2>
+                <a href="#">
+                    <h2>str</h2>
+                </a>
                 <p>
                     大棚乱了四季,金钱乱了年纪.
                 </p>
-                </a>
                 <div class="article_user">
                     <div id="user_user">
                         <img src="img\user.png">
-                        <a href="#">
                             <span>小诗诗</span>
-                        </a>
                     </div>
                     <div id="user_time">
                         <img src="img\time.png" id="time">
@@ -322,22 +297,20 @@
             </div>
         </div>
         <div class="content_root" >
-            <a href="#">
             <div class="article_img">
                 <img src="img\ifelse.png">
             </div>
             <div class="article_con">
-                <h2>str</h2>
+                <a href="#">
+                    <h2>str</h2>
+                </a>
                 <p>
                     大棚乱了四季,金钱乱了年纪.
                 </p>
-                </a>
                 <div class="article_user">
                     <div id="user_user">
                         <img src="img\user.png">
-                        <a href="#">
                             <span>小诗诗</span>
-                        </a>
                     </div>
                     <div id="user_time">
                         <img src="img\time.png" id="time">
@@ -421,8 +394,7 @@
                 <div class="info_fo">
                     <img src="img\info3.png" style="width: 25px; left: 16px;">
                     <span style="left: 16px;">运行天数</span>
-                    <div id="info"><span id="info_s"></span></div>
-                    <script src="js/two.js"></script> //导入js文件
+                    <div id="info"><span id="info_s">123</span></div>
                 </div>
                 <div class="info_fo">
                     <img src="img\info4.png">

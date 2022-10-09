@@ -1,11 +1,11 @@
 .article{
-    width: 950px;
+    width: 1000px;
     height: 1600px;
     background-color: #F1F3F4;
     position: absolute;
     top: 50px;
     /* right: 80px; */
-    left: 320px;
+    left: 290px;
     z-index:-1;
 }
 .article h1{
@@ -16,7 +16,7 @@
     margin-bottom: 20px;
 }
 .infor{
-    width: 850px;
+    width: 930px;
     height: 60px;
     position: relative;
     background-color: #ffffff;
@@ -75,4 +75,12 @@
     max-width: 800px;
     max-height: 500px;
     margin: 20px 0px 20px 0px;
+}
+.right-right{
+    width: 80px;
+    height: 100%;
+    background-color: #ffffff;
+    position: fixed;
+    top: 50px;
+    left: 1290px;
 }
