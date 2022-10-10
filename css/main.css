@@ -1,0 +1,13 @@
+/* :root {
+    --primary-bg: #eee;
+    --primary-fg: #000;
+    --secondary-bg: #ddd;
+    --secondary-fg: #555;
+    --primary-btn-bg: #000;
+    --primary-btn-fg: #fff;
+    --secondary-btn-bg: #ff0000;
+    --secondary-btn-fg: #ffff00;
+  } */
+  body {
+    color: #111;
+  }

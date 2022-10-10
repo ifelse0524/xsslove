@@ -1,3 +1,7 @@
+@import '../fonts/fonts.css';
+body{
+    font-family: 'LiberationMono-Regular';
+}
 .article{
     width: 1000px;
     height: 1600px;
@@ -15,6 +19,19 @@
     margin-left: 20px;
     margin-bottom: 20px;
 }
+.yu{
+    width: 300px;
+    height: 40px;
+    float: right;
+    position: relative;
+    top: -50px;
+    left: -200px;
+}
+.tou{
+    z-index: 100;
+    color: #22B1DD;
+}
+
 .infor{
     width: 930px;
     height: 60px;
@@ -29,24 +46,24 @@
 #infor_time{
     width: 20px;
     position: absolute;
-    top: 12px;
-    left: 120px;
+    top: 8px;
+    left: 130px;
 }
 .infor span{
     position: absolute;
     top: 12px;
-    left: 150px;
+    left: 160px;
 }
 #infor_eye{
     width: 30px;
     position: absolute;
-    top: 8px;
-    left: 310px;
+    top: 6px;
+    left: 345px;
 }
 #infor_eyes{
     position: absolute;
-    top: 12px;
-    left: 342px;
+    top: 14px;
+    left: 382px;
 }
 #label{
     position: absolute;
@@ -55,7 +72,7 @@
 }
 .infor a{
     position: absolute;
-    top: 40px;
+    top: 44px;
     left: 120px;
     padding: 0px 4px 0px 4px;
     font-size: 14px;
