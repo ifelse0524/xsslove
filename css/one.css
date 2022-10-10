@@ -109,7 +109,7 @@ body{
     height: 100%;
     background-color: #ffffff;
     position: fixed;
-    z-index: 2;
+    z-index: 1;
     border-right: 1px solid #e2e0e0;
 }
 .home{
