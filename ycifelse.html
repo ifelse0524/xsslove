@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +7,8 @@
     <title>小诗诗</title>
     <link rel="stylesheet" type="text/css" href="css/one.css">   <!--导入外部css文件-->
     <link rel="stylesheet" href="css/FontAwesome.css"> <!--Font Awesome (live 2d)-->
-    <script type="text/javascript" src="js/one.js"></script>     <!--导入外部js文件-->
     <script type="text/javascript" src="js/version.js"></script> <!--判断浏览器信息-->
-    <script type="text/javascript" src="js/mouse-1.js"></script>   <!--鼠标点击-->
+    <script type="text/javascript" src="js/background-1.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> <!--打字机效果-->
     <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script> <!--深色主题-->
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
@@ -18,8 +17,13 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <script src="js/live2d.js"></script>
 </head>
-<!--导入背景图片 -->
-<body background="img\preview.jpg" style="background-attachment:fixed">
+<body>
+    <!-- 鼠标点击 -->
+        <!-- <script type="text/javascript" src="js/mouse-1.js"></script> -->
+        <script type="text/javascript" src="js/mouse-2.js"></script>
+    <!-- 鼠标拖影 -->
+        <!-- <script type="text/javascript" src="js/mouse-3.js"></script> -->
+
     <!-- 导航栏 -->
     <div id="head_nav">
         <!-- <div id="nav_logo">
@@ -30,7 +34,6 @@
                 <form action="" class="parent">
                 <input type="text" class="search" placeholder="搜索">
                 <img src="img/sou-suo.png">
-                <!-- <input type="button" name="" id="" class="btn"> -->
                 </form>
             </div>
         </div>
@@ -116,7 +119,7 @@
                 </div>
                 <div class="article_con">
                     <a href="text/yc1.html">
-                        <h2>Vscode多行前后缩进</h2>
+                        <h2 id="iii">Vscode多行前后缩进</h2>
                     </a>
                     <p>
                         vscode缩进快捷键

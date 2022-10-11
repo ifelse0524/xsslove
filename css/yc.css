@@ -10,9 +10,9 @@ body{
     position: absolute;
     top: 50px;
     /* right: 80px; */
-    left: 290px;
+    left: 300px;
     z-index:-1;
-    background-color: var(--bg);
+    background-color: var(--background-color);
     color: var(--textColor);
     border: var(--border);
 }

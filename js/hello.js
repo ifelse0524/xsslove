@@ -1,5 +1,8 @@
     var typed = new Typed(".hello", {
-        strings: ["Welcome to <span>Sleep_jok</span>.<i>.</i><time>.</time>","只要累不死，就卷死他人","echo'🍺'..",],
+        strings: ["Welcome to <span>Sleep_jok</span>.<i>.</i><time>.</time>",
+                  "大抵是病了,横竖睡不着.<i>.</i><time>.</time>",
+                  "ending for you",
+                  "print'🍺'..",],
         typeSpeed: 100,//打字的速度
         smartBackspace: true, // 开启智能退格 默认false
         cursorChar: '_',

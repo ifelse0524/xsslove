@@ -11,7 +11,7 @@ $( function () {
     // });
     // // $('#ID').offset().top   滑动到指定ID的元素  
 });
-window.onload = function(){
+
     const showOnPx = 100;
     const backToTopButton = document.querySelector(".toTop")
     const scrollContainer = () => {
@@ -26,4 +26,3 @@ window.onload = function(){
         
         pageProgressBar.style.width = `${scrolledPercentage}%`
         });
-}
