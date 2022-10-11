@@ -1,23 +1,28 @@
 @import '../fonts/fonts.css';
+@import '../css/one.css';
 body{
     font-family: 'LiberationMono-Regular';
 }
 .article{
     width: 1000px;
     height: 1600px;
-    background-color: #F1F3F4;
+    /* background-color: #F1F3F4; */
     position: absolute;
     top: 50px;
     /* right: 80px; */
     left: 290px;
     z-index:-1;
+    background-color: var(--bg);
+    color: var(--textColor);
+    border: var(--border);
 }
 .article h1{
     font-size: 26px;
     font-weight: 600;
-    color: black;
+    /* color: black; */
     margin-left: 20px;
     margin-bottom: 20px;
+    color: var(--textColor);
 }
 .yu{
     width: 300px;
@@ -36,12 +41,15 @@ body{
     width: 930px;
     height: 60px;
     position: relative;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     border-radius: 5px;
     margin-left: 20px;
     padding-left: 30px;
     padding-top: 10px;
     color: #999AAA;
+    background-color: var(--bg);
+    color: var(--textColor);
+    border: var(--border);
 }
 #infor_time{
     width: 20px;
@@ -87,7 +95,6 @@ body{
 .text h3{
     padding-bottom: 20px;
 }
-
 #text_img1{
     max-width: 800px;
     max-height: 500px;
@@ -100,4 +107,7 @@ body{
     position: fixed;
     top: 50px;
     left: 1290px;
+    background-color: var(--bg);
+    color: var(--textColor);
+    border: var(--border);
 }

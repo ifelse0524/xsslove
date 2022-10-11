@@ -23,7 +23,8 @@ body{
 #head_nav{
     width: 100%;
     height: 50px;
-    background-color: #FEFEFE;
+    background-color: var(--bg);
+    border: var(--border);
     position: fixed;
     top: 0px;
     /* left: 100px; */
@@ -75,6 +76,9 @@ body{
     border-style: none;
     padding-left: 42px;
     position: absolute;
+    background-color: var(--bg);
+    color: var(--textColor);
+    border: var(--border);
     }
 .btn {
     height: 35px;
@@ -98,40 +102,25 @@ body{
     float: right;
     /* background-color: blue; */
 }
-.xin img{
-    width: 25px;
-    height: 25px;
-    position: relative;
-    top: 10px;
-    right: 10px;
-}
-.admin img{
-    width: 30px;
-    height: 30px;
-    position: relative;
-    top: -20px;
-    right: -60px;
-}
 .left-left{
     width: 70px;
     height: 100%;
-    background-color: #FEFEFE;
     position: fixed;
     z-index: 1;
     border-right: 1px solid #e2e0e0;
+    background-color: var(--bg);
+    color: var(--textColor);
+    border: var(--border);
 }
 .home{
     position: fixed;
-    top: 36px;
+    top: 10px;
     left: 14px;
     flex-direction: column;
     font-size: 15px;
     white-space: nowrap;
     list-style: none;
 }
-/* .home li{
-    line-height: 70px;
-} */
 .home a{
     display:block;
     width: 34px;
@@ -178,16 +167,21 @@ body{
     width: 220px;
     /* height: 637px; */
     height: 100%;
-    background-color: #EDF1F2;
+    /* background-color: #F1F3F4; */
     position: fixed;
     top: 50px;
     left: 70px;
+    background-color: var(--background-color);
+    color: var(--textColor);
 }
 .my{
     width: 190px;
     height: 130px;
     padding: 15px;
     border-bottom: 1px solid #E4EAEC;
+    background-color: var(--background-color);
+    color: var(--textColor);
+    border: var(--border);
 }
 .my img{
     position: relative;
@@ -262,13 +256,16 @@ body{
     left: 290px;
     z-index:-1;
     float: left;
+    background-color: var(--background-color);
+    color: var(--textColor);
+    border: var(--border);
 }
 .cen_md{
     width: 710px;
     height: 40px;
-    background-color: #F1F3F4;
     padding-left: 50px;
     padding-top: 10px;
+    background-color: var(--background-color);
 }
 .hello{
     z-index: 100;
@@ -291,10 +288,14 @@ body{
     border-radius: 10px;
     position: relative;
     /* right: -20px; */
+    background-color: var(--background-color);
+    color: var(--textColor);
+    border: var(--border);
 }
 .content_root a{
     text-decoration: none;
     color: black;
+    color: var(--textColor);
 }
 .article_img{
     width: 200px;
@@ -329,6 +330,7 @@ body{
     left: 240px;
     right: 40px;
     font-size: 14px;
+    color: var(--textColor);
 }
 .article_con p:hover{
     color: #22B1DD;
@@ -402,6 +404,10 @@ body{
     border: 1px solid #F5F5F5;
     border-radius: 50%;
     background-color: #25E6BE;
+    border: var(--border);
+}
+#toTop :hover{
+    cursor:pointer;
 }
 #toTop img{
     width: 30px;
@@ -415,6 +421,12 @@ body{
     border: 1px solid #F5F5F5;
     border-radius: 50%;
     background-color: #25E6BE;
+    border: var(--border);
+    position: relative;
+    top: 10px;
+}
+#toTom :hover{
+    cursor:pointer;
 }
 #toTom img{
     width: 24px;
@@ -439,11 +451,16 @@ body{
     /* right: 80px; */
     left: 1090px;
     z-index:-1;
+    background-color: var(--background-color);
+    color: var(--textColor);
+    border: var(--border);
 }
 .window{
     width: 240px;
     height: 200px;
-    background-color: #F1F3F4;
+    background-color: var(--background-color);
+    color: var(--textColor);
+    border: var(--border);
 }
 .window img{
     width: 30px;
@@ -462,10 +479,13 @@ body{
     margin: 0px 20px 0px 20px;
     font-size: 14px;
     text-indent: 2em;
+    color: var(--textColor);
 }
 .hot{
     position:absolute;
-    background-color: #FEFEFE;
+    background-color: var(--background-color);
+    color: var(--textColor);
+    border: var(--border);
 }
 .hot_con a{
     text-decoration: none;
@@ -500,7 +520,7 @@ body{
     position: relative;
     top: -50px;
     left: 20px;
-    color: black;
+    color: var(--textColor);
 }
 .hot_con h4:hover{
     color: #22B1DD;
@@ -510,7 +530,7 @@ body{
     top: -40px;
     margin-left: 20px;
     font-size: 14px;
-    color: black;
+    color: var(--textColor);
 }
 .hot_con p:hover{
     color: #22B1DD;
@@ -526,7 +546,6 @@ body{
 .info_box{
     width: 200px;
     height: 200px;
-    background-color: #FEFEFE;
     position: relative;
     top: 480px;
     left: 20px;
@@ -534,7 +553,9 @@ body{
 .info_fo{
     position: relative;
     height: 50px;
-    background-color: #FEFEFE;
+    background-color: var(--background-color);
+    color: var(--textColor);
+    border: var(--border);
 }
 .info_fo img{
     width: 20px;
@@ -553,10 +574,12 @@ body{
     top: -10px;
     left: 150px;
     font-size: 14px;
-    background-color: #D8E0E3;
     width: 30%;
     border-radius: 10px;
     text-align: center;
+    background-color: var(--background-color);
+    color: var(--textColor);
+    border: var(--border);
 }
 #info_s{
     position: relative;
@@ -566,10 +589,12 @@ body{
 .fil{
     width: 950px;
     height: 40px;
-    background-color: #EDF1F2;
     position: absolute;
     top: 1610px;
     left: 315px;
+    background-color: var(--background-color);
+    color: var(--textColor);
+    border: var(--border);
 }
 .fil p{
     font-size: 14px;
@@ -577,6 +602,9 @@ body{
     left: 20px;
     top: 10px;
     margin-left: 180px;
+}
+.fil a{
+    color: red;
 }
  #in2{
     cursor:pointer
@@ -604,18 +632,38 @@ body{
     padding: 20px 20px 20px 20px;
     color: #FEFEFE;
 }
-/* .darkmode--activated p, .darkmode--activated li {
-    color: #000;
+  :root[data-theme="light"] {
+    background-color: #FEFEFE;
+    color: #000000;
+    --textColor: #000000;
+    --border: black;
+    --background-color: #F1F3F4;
+  }
+  :root[data-theme="dark"] {
+    background-color: #2D2D2D;
+    color: #FFFFFF;
+    --textColor: #E2E1E6;
+    border: #3E3D42;
+    --background-color: #2D2D2D;
+  }
+  /*亮色*/
+@media (prefers-color-scheme: light) {
+    :root {
+      background-color: #FFFFFF;
+      color: #000000;
+    }
+    p {
+      color: #000000;
+    }
   }
   
-  .button {
-    isolation: isolate;
+  /*暗色*/
+  @media (prefers-color-scheme: dark) {
+    :root {
+      background-color: #000000;
+      color: #FFFFFF;
+    }
+    p {
+      color: #FFFFFF;
+    }
   }
-  
-  .darkmode--activated .logo {
-    mix-blend-mode: difference;
-  } */
-
-/* .darkmode-toggle{
-    z-index: 997;
-} */
