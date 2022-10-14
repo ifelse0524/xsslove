@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>小诗诗</title>
     <link rel="stylesheet" type="text/css" href="css/one.css">   <!--导入外部css文件-->
+    <link rel="stylesheet" type="text/css" href="css/music.css">
     <link rel="stylesheet" href="css/FontAwesome.css"> <!--Font Awesome (live 2d)-->
     <script type="text/javascript" src="js/version.js"></script> <!--判断浏览器信息-->
-    <script type="text/javascript" src="js/background-1.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> <!--打字机效果-->
     <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script> <!--深色主题-->
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">  <!-- 网页标题ico图标 -->
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">  <!-- 网页收藏夹ico图标 -->
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <script src="js/live2d.js"></script>
+    <script src="js/live2d.js"></script>    
 </head>
 <body>
     <!-- 鼠标点击 -->
@@ -23,6 +23,8 @@
         <script type="text/javascript" src="js/mouse-2.js"></script>
     <!-- 鼠标拖影 -->
         <!-- <script type="text/javascript" src="js/mouse-3.js"></script> -->
+    <!-- 背景特效 -->
+        <script type="text/javascript" src="js/background-1.js"></script>
 
     <!-- 导航栏 -->
     <div id="head_nav">
@@ -38,7 +40,49 @@
             </div>
         </div>
         <div id="nav_music">
-
+            <!-- 音乐源 -->
+            <audio src="music/LostMemory.mp3"></audio>
+            <!-- 音乐播放器 -->
+            <div class="play_box">
+                <!-- 音乐播放器背景 -->
+                <div class="play_bc">
+                    <img src="img/LostMemory.jpg" alt="">
+                </div>
+                <!-- 播放组件 -->
+                <div class="state">
+                    <img class="head" src="img/LostMemory.jpg" alt="">
+                    <div class="state_set iconfont icon-bofang">
+                        <img id="bof" src="img/music_3.svg">
+                    </div>  <!--暂停/播放-->
+                </div>
+                <!-- 进度条组件 -->
+                <div class="progress">
+                    <div class="last">
+                        <img src="img/music_0.svg">
+                    </div>
+                    <div class="next">
+                        <img src="img/music_1.svg">
+                    </div>
+                    <div class="line">
+                        <div class="pros">
+                            <div class="Anchor"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 时间组件 -->
+                <div class="time_show">00:00 / 00:00</div>
+                <!-- 音量组件 -->
+                <div class="tool">
+                    <div class="volume iconfont icon-volumeMiddle">
+                        <div class="volume_range">
+                            <input type="range" class="range">
+                        </div>
+                    </div>
+                </div>
+                <!-- 音乐信息组件 -->
+                <div class="music_info">LostMemory</div>
+            </div>
+            <script src="js/music.js"></script> 
         </div>
         <div id="nav_an">
             
